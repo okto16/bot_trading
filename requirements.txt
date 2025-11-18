@@ -1,0 +1,5 @@
+numpy
+pandas
+catboost
+scikit-learn
+websockets

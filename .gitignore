@@ -1,0 +1,72 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+.venv/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache from joblib, transformers, etc
+joblib_cache/
+.cache/
+*.joblib
+
+# --- NodeJS ---
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# --- Data / Models / Logs ---
+data/
+data_backtest/
+dataset/
+logs/
+*_log/
+*.log
+
+# MT5 exported CSV
+*.csv
+
+# Model binaries (PKL, ONNX, etc)
+models/*.pkl
+models/*.onnx
+models/*.bin
+models/*.sav
+models/*.npy
+
+# Schema & config boleh disimpan
+!models/schema/
+!models/config.json
+!models/feature_schema.json
+
+# Folder tempat kamu simpan class Python model
+models/py/__pycache__/
+
+# --- IDE / OS trash ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Build / temp ---
+dist/
+build/
+tmp/
+temp/
+*.tmp
+
+# --- Worker logs ---
+predict_worker/*.log
+ai_worker.log
